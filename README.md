@@ -53,6 +53,14 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 
 **Modelos** — Sonnet 4.6, Opus 4.6 (1M context), Haiku 4.5 — seleccionables antes de iniciar sesion.
 
+**Selector de effort** — Controla cuanto piensa Claude: Low, Medium, High o Max. Cambialo en caliente con /effort.
+
+**Editor configurable** — /editor para elegir con que programa abrir archivos (VS Code, Cursor, Notepad++...).
+
+**Comandos mid-session** — /model, /effort, /permissions, /editor para cambiar configuracion sin reiniciar.
+
+**Checkpoints** — Vuelve atras en la conversacion si algo sale mal, sin perder el trabajo. Esc+Esc para undo rapido.
+
 ## Screenshots
 
 <p align="center">
@@ -80,6 +88,28 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 3. Abre Axon Terminal, selecciona una carpeta de proyecto y empieza
 
 ## Changelog
+
+### v0.6.0 (2026-03-27)
+
+- Selector de effort level — controla cuanto piensa Claude (Low/Medium/High/Max)
+- Comandos mid-session — /model, /effort, /permissions, /editor sin salir de la sesion
+- Editor externo configurable — elige con que programa abrir archivos
+- Abrir archivos desde la terminal — /config, /memory, click derecho funcionan
+- Undo mejorado — preserva los mensajes en vez de borrar todo
+- Voz estable — toggle ON/OFF sin audio fantasma
+- Notificacion visual en pestanas inactivas cuando Claude termina
+- Fix: /memory ya no destruye CLAUDE.md
+- Fix: exportar a Markdown funciona correctamente
+
+### v0.5.1 (2026-03-26)
+
+- Checkpoints — vuelve atras si algo sale mal, sin perder el trabajo
+- Reconexion automatica tras un crash, retoma donde lo dejaste
+- Historial agrupado por proyecto — encuentra conversaciones sin buscar
+- Exporta cualquier conversacion a Markdown con un click
+- Cancela el turno de Claude sin perder la sesion
+- Tecla push-to-talk configurable — elige la que te quede comoda
+- Fix: voz ya no se solapa al usar multiples tabs
 
 ### v0.5.0 (2026-03-24)
 
