@@ -89,6 +89,14 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 
 ## Changelog
 
+### v0.7.0 (2026-03-28)
+
+- Pantalla de inicio rediseñada — config en sidebar, proyectos con todo el ancho
+- Wake word para dictado — el micro solo responde cuando dices tu frase clave
+- Nombres personalizables en el chat — doble-click para cambiar
+- Comando /bug para reportar problemas en GitHub
+- Modelo Opus 4.6 (1M) por defecto
+
 ### v0.6.0 (2026-03-27)
 
 - Selector de effort level — controla cuanto piensa Claude (Low/Medium/High/Max)
