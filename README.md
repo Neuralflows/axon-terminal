@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/captura3.png" alt="Axon Terminal" width="800">
+  <img src="screenshots/captura3.png" alt="Axon Terminal" width="800"> 
 </p>
 
 <h1 align="center">Axon Terminal</h1>
