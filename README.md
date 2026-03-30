@@ -89,6 +89,23 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 
 ## Changelog
 
+### v0.9.0 (2026-03-30)
+
+- Checkpoints sin ruido en git — ya no crean commits automaticos, usan zip snapshots locales
+- Iconos en el arbol de archivos segun tipo — Rust, TS, JS, Python, carpetas, configs y mas
+- CHANGELOG reconstruido desde el dia uno — todas las versiones documentadas
+
+### v0.8.0 (2026-03-28)
+
+- Temas metalizados con degradados y profundidad visual
+- Dialog de aceptacion de terminos legales al primer uso
+- Badge "Nuevos mensajes" al scrollear arriba en conversacion
+- FileTree diferencia A/M/D con colores propios
+- Deteccion automatica de proceso Claude muerto + watchdog
+- Sesiones matadas externamente se guardan en historial
+- Dialogos nativos Tauri para multi-ventana
+- Pop-outs mejorados, git add con retry, temas mas saturados
+
 ### v0.7.0 (2026-03-28)
 
 - Pantalla de inicio rediseñada — config en sidebar, proyectos con todo el ancho
