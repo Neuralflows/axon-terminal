@@ -5,61 +5,50 @@
 <h1 align="center">Axon Terminal</h1>
 
 <p align="center">
-  Terminal GUI para Claude Code. Ve todo lo que pasa, sin perder contexto haciendo scroll.
+  Deja de perder contexto haciendo scroll en la terminal.<br/>
+  Ve todo lo que hace Claude de un vistazo, controla el coste y trabaja mas rapido.
 </p>
 
 <p align="center">
   <a href="https://terminal.neuralflow.es">Web</a> &middot;
   <a href="https://github.com/Neuralflows/axon-terminal/releases">Descargar</a> &middot;
-  <a href="#features">Features</a> &middot;
+  <a href="#por-que">Por que</a> &middot;
   <a href="#changelog">Changelog</a>
 </p>
 
 ---
 
-## Que es
+## Por que
 
-Axon Terminal es una aplicacion de escritorio que reemplaza la CLI de Claude Code por una interfaz visual con paneles especializados. Construida con Tauri 2 (Rust) + React (TypeScript).
+Claude Code es potente, pero en una terminal convencional pierdes contexto constantemente: scroll infinito, output mezclado, cero visibilidad de lo que esta pasando, y ninguna idea de cuanto estas gastando.
 
-Claude Code es potente, pero en la terminal pierdes contexto constantemente: scroll infinito, output mezclado, y cero visibilidad de lo que esta pasando. Axon Terminal separa cada flujo de informacion en su propio panel para que siempre sepas que esta haciendo Claude con tu codigo.
+Axon Terminal elimina esas fricciones. Es un wrapper de Claude Code que separa cada flujo de informacion en su propio panel para que siempre sepas que esta haciendo Claude con tu codigo.
 
-## Features
+## Que resuelve
 
-**Paneles separados para todo** — Conversacion, herramientas, shell, thinking, tareas, diff, arbol de archivos, agentes, skills, hooks, MCP. Cada cosa en su sitio, todo visible a la vez.
+**Ve todo lo que pasa, sin scroll** — En la CLI pierdes contexto haciendo scroll. Aqui cada cosa tiene su sitio: conversacion, tools, shell, thinking, diff, tareas — todo visible a la vez.
 
-**StatusLine siempre visible** — Modelo, proyecto, rama git, barra de progreso de contexto, tokens usados, coste acumulado y duracion. Sin sorpresas en la factura.
+**Controla cuanto gastas** — Tokens, coste acumulado, modelo, contexto consumido y duracion. Todo en la StatusLine, siempre visible. Sin sorpresas en la factura.
 
-**Diff side-by-side en tiempo real** — Ve exactamente que esta tocando Claude en tu codigo mientras lo hace, no despues.
+**Revisa cambios antes de que sea tarde** — Diff side-by-side en tiempo real. Ve exactamente que esta tocando Claude en tu codigo mientras lo hace, no despues.
 
-**Multi-tab** — Trabaja en varios proyectos en la misma ventana. Abre tabs con Ctrl+T, navega con Ctrl+Tab o Ctrl+1..9.
+**No pierdas la pista de lo que toco** — Claude edita 15 archivos y no sabes cuales. Arbol de archivos con estado git en vivo, +N/-N por archivo y heatmap de cambios.
 
-**Ventanas flotantes** — Extrae cualquier panel como ventana independiente always-on-top. Ideal para monitores grandes o multi-pantalla.
+**Deja de saltar entre ventanas** — Cada vez que necesitas ejecutar un comando, sales de Claude, abres otra terminal, vuelves. PowerShell o CMD integrado — Ctrl+` y listo.
 
-**Temas** — 11 temas oscuros + 2 claros. Fuentes configurables (Cascadia Code, JetBrains Mono, Fira Code, etc.).
+**Sesiones que no se pierden** — Cierra la app, vuelve manana. Si algo falla, reconecta automaticamente. Tus sesiones se guardan y reanudan con todo el contexto intacto.
 
-**Historial de sesiones** — Cierra la app y vuelve manana. Tus sesiones se guardan y puedes reanudarlas con todo el contexto.
+**Deja de abrir ventanas para cada proyecto** — Multiples sesiones independientes en la misma app. Extrae cualquier panel como ventana flotante si necesitas tenerlo siempre a la vista.
 
-**Arbol de archivos con git status** — M/A/D en vivo. Click para ver el diff de cualquier archivo que Claude haya tocado.
+**Concentrate sin ruido** — Demasiados paneles, demasiada informacion. Zen mode oculta todo salvo la conversacion para que solo existas tu y Claude.
 
-**Voz** — Push-to-talk configurable para dar instrucciones por voz. Tecla configurable, auto-envio opcional.
+**Todo el ecosistema, sin rebuscar** — MCP servers, skills, agentes, permisos — en Claude Code los configuras a ciegas. Aqui estan todos en paneles dedicados donde puedes verlos y gestionarlos.
 
-**Busqueda en conversacion** — Ctrl+F para encontrar lo que Claude dijo hace 50 mensajes.
+**Sin miedo a romper nada** — Claude edita directo en tu carpeta por defecto. Si prefieres, activa worktree y revisa los cambios antes de aplicarlos.
 
-**Exportar a Markdown** — Guarda cualquier conversacion como archivo .md con un click.
+**Las manos en el codigo, no en el prompt** — Describe lo que necesitas por voz y sigue trabajando. Push-to-talk configurable y wake word opcional.
 
-**Notificaciones de escritorio** — Sigue con otra cosa mientras Claude trabaja. Te avisa cuando termina.
-
-**Atajos de teclado** — F11 fullscreen, Ctrl+F buscar, Ctrl+T nueva tab, Ctrl+W cerrar tab, y mas.
-
-**Modelos** — Sonnet 4.6, Opus 4.6 (1M context), Haiku 4.5 — seleccionables antes de iniciar sesion.
-
-**Selector de effort** — Controla cuanto piensa Claude: Low, Medium, High o Max. Cambialo en caliente con /effort.
-
-**Editor configurable** — /editor para elegir con que programa abrir archivos (VS Code, Cursor, Notepad++...).
-
-**Comandos mid-session** — /model, /effort, /permissions, /editor para cambiar configuracion sin reiniciar.
-
-**Checkpoints** — Vuelve atras en la conversacion si algo sale mal, sin perder el trabajo. Esc+Esc para undo rapido.
+**Tu entorno, tus reglas** — 13 temas, fuentes configurables, transparencia, y layout que se adapta a ti.
 
 ## Screenshots
 
@@ -68,11 +57,11 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 </p>
 
 <p align="center">
-  <img src="screenshots/captura2.png" alt="Tema claro con conversacion" width="800">
+  <img src="screenshots/captura2.png" alt="Workspace con paneles" width="800">
 </p>
 
 <p align="center">
-  <img src="screenshots/captura3.png" alt="Multi-panel con ventanas flotantes" width="800">
+  <img src="screenshots/captura3.png" alt="Terminal integrada y StatusLine" width="800">
 </p>
 
 ## Requisitos
@@ -89,95 +78,78 @@ Claude Code es potente, pero en la terminal pierdes contexto constantemente: scr
 
 ## Changelog
 
+### v0.99.0 (2026-04-07)
+
+- Terminal integrada con PowerShell/CMD real — Ctrl+`, el proceso sobrevive al abrir/cerrar
+- Selector de shell: PowerShell Core, PowerShell o CMD sin reiniciar
+- Reconexion automatica si el terminal muere
+- Zen mode: oculta toda la UI salvo la conversacion
+- Arbol de archivos mejorado: +N -N por archivo, heatmap de cambios, archivos ignorados atenuados
+- Deteccion de version CLI: te avisa si Claude Code se actualizo entre sesiones
+- 183 tests automatizados + CI Guardian en cada commit
+- Los procesos ya no se acumulan al cerrar — shutdown graceful + limpieza de huerfanos
+- OpenRouter con retry automatico para rate limits
+
 ### v0.9.0 (2026-03-30)
 
-- Checkpoints sin ruido en git — ya no crean commits automaticos, usan zip snapshots locales
-- Iconos en el arbol de archivos segun tipo — Rust, TS, JS, Python, carpetas, configs y mas
-- CHANGELOG reconstruido desde el dia uno — todas las versiones documentadas
+- Los checkpoints ya no ensucian tu historial git — snapshots comprimidos fuera de git
+- Iconos en el arbol de archivos segun tipo
+- CHANGELOG reconstruido desde el dia uno
 
-### v0.8.0 (2026-03-28)
+### v0.8.0 (2026-03-30)
 
-- Temas metalizados con degradados y profundidad visual
-- Dialog de aceptacion de terminos legales al primer uso
-- Badge "Nuevos mensajes" al scrollear arriba en conversacion
-- FileTree diferencia A/M/D con colores propios
-- Deteccion automatica de proceso Claude muerto + watchdog
-- Sesiones matadas externamente se guardan en historial
-- Dialogos nativos Tauri para multi-ventana
-- Pop-outs mejorados, git add con retry, temas mas saturados
+- Pop-outs que siguen el tab activo sin desconectarse
+- Pestanas arrastrables, layout configurable, transparencia de ventana
+- Telemetria arreglada, permisos simplificados, limpieza de codigo muerto
 
 ### v0.7.0 (2026-03-28)
 
-- Pantalla de inicio rediseñada — config en sidebar, proyectos con todo el ancho
-- Wake word para dictado — el micro solo responde cuando dices tu frase clave
-- Nombres personalizables en el chat — doble-click para cambiar
-- Comando /bug para reportar problemas en GitHub
-- Modelo Opus 4.6 (1M) por defecto
+- Pantalla de inicio rediseñada
+- Wake word para dictado
+- Nombres personalizables en el chat
+- Opus 4.6 (1M) como opcion por defecto
 
 ### v0.6.0 (2026-03-27)
 
-- Selector de effort level — controla cuanto piensa Claude (Low/Medium/High/Max)
-- Comandos mid-session — /model, /effort, /permissions, /editor sin salir de la sesion
-- Editor externo configurable — elige con que programa abrir archivos
-- Abrir archivos desde la terminal — /config, /memory, click derecho funcionan
-- Undo mejorado — preserva los mensajes en vez de borrar todo
-- Voz estable — toggle ON/OFF sin audio fantasma
-- Notificacion visual en pestanas inactivas cuando Claude termina
-- Fix: /memory ya no destruye CLAUDE.md
-- Fix: exportar a Markdown funciona correctamente
+- Selector de effort level (Low/Medium/High/Max)
+- Comandos mid-session: /model, /effort, /permissions, /editor
+- Editor externo configurable
+- Undo que preserva la conversacion
 
 ### v0.5.1 (2026-03-26)
 
-- Checkpoints — vuelve atras si algo sale mal, sin perder el trabajo
-- Reconexion automatica tras un crash, retoma donde lo dejaste
-- Historial agrupado por proyecto — encuentra conversaciones sin buscar
-- Exporta cualquier conversacion a Markdown con un click
-- Cancela el turno de Claude sin perder la sesion
-- Tecla push-to-talk configurable — elige la que te quede comoda
-- Fix: voz ya no se solapa al usar multiples tabs
+- Checkpoints — vuelve atras si algo sale mal
+- Reconexion automatica tras crash
+- Historial agrupado por proyecto
+- Exportar a Markdown
 
 ### v0.5.0 (2026-03-24)
 
-- Multi-tab — trabaja en varios proyectos sin abrir otra ventana
-- Busca en la conversacion (Ctrl+F)
-- Atajos de teclado — Ctrl+T nueva tab, Ctrl+W cerrar, y mas
-- Notificaciones de escritorio
-- Dictado por voz configurable
+- Multi-tab, busqueda en conversacion, atajos de teclado
+- Notificaciones de escritorio, dictado por voz configurable
 - Diff redimensionable
-- Fix: la terminal ya no se cuelga al cancelar un turno
-- Fix: procesos background que se quedaban girando indefinidamente
 
 ### v0.4.0 (2026-03-24)
 
 - StatusLine con modelo, proyecto, rama, tokens, coste y duracion
-- F11 fullscreen
-- Modelos corregidos: Opus 4.6 1M, Sonnet 4.6, Haiku 4.5
+- F11 fullscreen, PermissionDialog
 
 ### v0.3.0 (2026-03-23)
 
-- Worktree opcional — modo directo por defecto
-- Historial de sesiones con resume
-- Sistema de ayuda y tooltips
-- Temas centralizados con variables CSS
-- Slash commands custom
+- Worktree opcional, historial de sesiones con resume
+- Sistema de ayuda, temas centralizados, slash commands custom
 
 ### v0.2.0 (2026-03-21)
 
-- Sistema de temas: Matrix, Nebula, Crimson, Frost, Hacker, Pip-Boy
-- Sesiones pendientes — recupera sesiones tras cerrar la app
-- Update checker integrado
+- Sistema de temas, panel toggles, sesiones pendientes, update checker
 
 ### v0.1.0 (2026-03-15)
 
 - Release inicial
-- Paneles: conversacion, herramientas, shell, thinking, tareas, diff, filetree
-- Ventanas flotantes pop-out
-- Sandbox con git worktrees
-- Voz con edge-tts y push-to-talk
 
 ## Reportar bugs / Pedir features
 
-Usa el [issue tracker](https://github.com/Neuralflows/axon-terminal/issues) de este repositorio. Hay templates para bug reports y feature requests.
+Usa el [issue tracker](https://github.com/Neuralflows/axon-terminal/issues) de este repositorio.
 
 ## Licencia
 
