@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#080d12"/>
+    </linearGradient>
+    <linearGradient id="axon-main" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="45%" stop-color="#00c8ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00e5a0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7b61ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="node-glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="88" fill="url(#bg)"/>
+  <rect x="32" y="32" width="448" height="448" rx="88" fill="none" stroke="#1a3040" stroke-width="2"/>
+  <ellipse cx="256" cy="256" rx="130" ry="170" fill="url(#glow)" opacity="0.4"/>
+  <path d="M256 90 C250 150, 244 210, 254 256 C264 302, 260 365, 256 425" stroke="url(#axon-main)" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <g stroke="url(#axon-main)" fill="none" stroke-linecap="round">
+    <path d="M250 145 C210 118, 160 100, 115 95" stroke-width="12" opacity="0.95"/>
+    <path d="M246 200 C215 180, 170 170, 135 175" stroke-width="8" opacity="0.75"/>
+    <path d="M262 135 C300 108, 350 92, 395 88" stroke-width="12" opacity="0.95"/>
+    <path d="M264 195 C295 178, 340 168, 375 172" stroke-width="8" opacity="0.75"/>
+  </g>
+  <g stroke="url(#axon-main)" fill="none" stroke-linecap="round">
+    <path d="M254 365 C225 385, 180 405, 140 415" stroke-width="10" opacity="0.9"/>
+    <path d="M255 395 C235 408, 200 420, 165 430" stroke-width="6" opacity="0.65"/>
+    <path d="M258 365 C288 385, 330 405, 370 415" stroke-width="10" opacity="0.9"/>
+    <path d="M257 395 C278 408, 312 420, 345 430" stroke-width="6" opacity="0.65"/>
+  </g>
+  <circle cx="256" cy="256" r="28" fill="#0f1923" stroke="url(#axon-main)" stroke-width="6" filter="url(#node-glow)"/>
+  <circle cx="256" cy="256" r="14" fill="url(#axon-main)" opacity="0.95"/>
+  <g filter="url(#node-glow)">
+    <circle cx="115" cy="95" r="12" fill="#00e5a0"/>
+    <circle cx="135" cy="175" r="8" fill="#00d4e0" opacity="0.85"/>
+    <circle cx="395" cy="88" r="12" fill="#00e5a0"/>
+    <circle cx="375" cy="172" r="8" fill="#00d4e0" opacity="0.85"/>
+  </g>
+  <g filter="url(#node-glow)">
+    <circle cx="140" cy="415" r="10" fill="#6366f1" opacity="0.95"/>
+    <circle cx="165" cy="430" r="7" fill="#7b61ff" opacity="0.75"/>
+    <circle cx="370" cy="415" r="10" fill="#6366f1" opacity="0.95"/>
+    <circle cx="345" cy="430" r="7" fill="#7b61ff" opacity="0.75"/>
+  </g>
+</svg>
