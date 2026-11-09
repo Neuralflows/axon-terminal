@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Axon Terminal" width="80">
+  <img src="assets/logo.svg" alt="Lichen" width="80">
 </p>
 
-<h1 align="center">Axon Terminal</h1>
+<h1 align="center">Lichen</h1>
 
 <p align="center">
   Run all your coding agents in one window: Claude Code, Codex and OpenRouter.<br/>
@@ -15,7 +15,9 @@
   <a href="https://uselichen.com/?utm_source=github">Lichen</a>
 </p>
 
-> **Axon Terminal is the free app of [Lichen](https://uselichen.com/?utm_source=github).** Memory across sessions, an issue board your agents run themselves and CI checks they can't skip are coming with Lichen. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
+> **The desktop app is free.** Memory across sessions, an issue board your agents run themselves and CI checks they can't skip are coming as a paid Lichen account. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
+>
+> Listed in the Microsoft Store as Axon Terminal while the rename to Lichen goes through.
 
 ---
 
@@ -23,7 +25,7 @@
 
 If you run more than one coding agent, you know the routine: you check terminals to see who's waiting on you, you go back and forth between them, and the moment you step away everything stops.
 
-Axon Terminal puts every agent session in its own tab, with its state in plain view: working, done, or waiting for you. You stop checking. You go where you're needed.
+Lichen puts every agent session in its own tab, with its state in plain view: working, done, or waiting for you. You stop checking. You go where you're needed.
 
 ## What you get
 
@@ -56,7 +58,7 @@ Axon Terminal puts every agent session in its own tab, with its state in plain v
 ## Install
 
 1. Get it from the [Microsoft Store](https://apps.microsoft.com/detail/9P5DW739TTN1?cid=lichen-github) (it updates itself), or download the installer from [Releases](https://github.com/Neuralflows/axon-terminal/releases/latest).
-2. Open Axon Terminal, pick a project folder and start a session.
+2. Open the app, pick a project folder and start a session.
 
 ## Feedback
 
