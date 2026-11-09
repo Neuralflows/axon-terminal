@@ -51,7 +51,7 @@ Axon Terminal puts every agent session in its own tab, with its state in plain v
 ## Requirements
 
 - Windows 10 (version 1903 or later) or Windows 11, 64-bit, and an internet connection.
-- Claude Code installed (with a Claude account, an Anthropic API key or an OpenRouter API key), or Codex installed plus an OpenRouter API key.
+- Claude Code installed (with a Claude account, an Anthropic API key or an OpenRouter API key), and/or Codex installed (signed in with your ChatGPT account via `codex login`, or with an OpenRouter API key).
 
 ## Install
 
