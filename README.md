@@ -1,162 +1,67 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Axon Terminal" width="80"> 
+  <img src="assets/logo.svg" alt="Axon Terminal" width="80">
 </p>
 
 <h1 align="center">Axon Terminal</h1>
 
 <p align="center">
-  Deja de perder contexto haciendo scroll en la terminal.<br/>
-  Ve todo lo que hace Claude de un vistazo, controla el coste y trabaja mas rapido.
+  Run all your coding agents in one window: Claude Code, Codex and OpenRouter.<br/>
+  Free and local, for Windows.
 </p>
 
 <p align="center">
-  <a href="https://terminal.neuralflow.es">Web</a> &middot;
-  <a href="https://github.com/Neuralflows/axon-terminal/releases">Descargar</a> &middot;
-  <a href="#por-que">Por que</a> &middot;
-  <a href="#changelog">Changelog</a>
+  <a href="https://apps.microsoft.com/detail/9P5DW739TTN1?cid=lichen-github">Microsoft Store</a> &middot;
+  <a href="https://github.com/Neuralflows/axon-terminal/releases/latest">Download from Releases</a> &middot;
+  <a href="https://uselichen.com/?utm_source=github">Lichen</a>
 </p>
+
+> **Axon Terminal is the free app of [Lichen](https://uselichen.com/?utm_source=github).** Memory across sessions, an issue board your agents run themselves and CI checks they can't skip are coming with Lichen. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
 
 ---
 
-## Por que
+## Why
 
-Claude Code es potente, pero en una terminal convencional pierdes contexto constantemente: scroll infinito, output mezclado, cero visibilidad de lo que esta pasando, y ninguna idea de cuanto estas gastando.
+If you run more than one coding agent, you know the routine: you check terminals to see who's waiting on you, you go back and forth between them, and the moment you step away everything stops.
 
-Axon Terminal elimina esas fricciones. Es un wrapper de Claude Code que separa cada flujo de informacion en su propio panel para que siempre sepas que esta haciendo Claude con tu codigo.
+Axon Terminal puts every agent session in its own tab, with its state in plain view: working, done, or waiting for you. You stop checking. You go where you're needed.
 
-## Que resuelve
+## What you get
 
-**Ve todo lo que pasa, sin scroll** — En la CLI pierdes contexto haciendo scroll. Aqui cada cosa tiene su sitio: conversacion, tools, shell, thinking, diff, tareas — todo visible a la vez.
-
-**Controla cuanto gastas** — Tokens, coste acumulado, modelo, contexto consumido y duracion. Todo en la StatusLine, siempre visible. Sin sorpresas en la factura.
-
-**Revisa cambios antes de que sea tarde** — Diff side-by-side en tiempo real. Ve exactamente que esta tocando Claude en tu codigo mientras lo hace, no despues.
-
-**No pierdas la pista de lo que toco** — Claude edita 15 archivos y no sabes cuales. Arbol de archivos con estado git en vivo, +N/-N por archivo y heatmap de cambios.
-
-**Deja de saltar entre ventanas** — Cada vez que necesitas ejecutar un comando, sales de Claude, abres otra terminal, vuelves. PowerShell o CMD integrado — Ctrl+` y listo.
-
-**Sesiones que no se pierden** — Cierra la app, vuelve manana. Si algo falla, reconecta automaticamente. Tus sesiones se guardan y reanudan con todo el contexto intacto.
-
-**Deja de abrir ventanas para cada proyecto** — Multiples sesiones independientes en la misma app. Extrae cualquier panel como ventana flotante si necesitas tenerlo siempre a la vista.
-
-**Concentrate sin ruido** — Demasiados paneles, demasiada informacion. Zen mode oculta todo salvo la conversacion para que solo existas tu y Claude.
-
-**Todo el ecosistema, sin rebuscar** — MCP servers, skills, agentes, permisos — en Claude Code los configuras a ciegas. Aqui estan todos en paneles dedicados donde puedes verlos y gestionarlos.
-
-**Sin miedo a romper nada** — Claude edita directo en tu carpeta por defecto. Si prefieres, activa worktree y revisa los cambios antes de aplicarlos.
-
-**Las manos en el codigo, no en el prompt** — Describe lo que necesitas por voz y sigue trabajando. Push-to-talk configurable y wake word opcional.
-
-**Tu entorno, tus reglas** — 13 temas, fuentes configurables, transparencia, y layout que se adapta a ti.
+- **Every session at a glance.** Each tab shows whether its agent is working, done or waiting for you.
+- **Claude Code, Codex and OpenRouter in the same window.** One tab runs Claude Code, the next one Codex or a model through OpenRouter.
+- **Permission requests you don't miss.** When an agent wants to write a file or run a command, you get a clear dialog: allow once, for the session, or always.
+- **See what the agent is doing while it does it.** Tool calls, shell commands and the project's files sit next to the conversation.
+- **Context and cost in the status bar.** Context used, tokens, cost and session time for each tab.
+- **Free and local.** No sign-up.
 
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/captura1.png" alt="Sesion activa con tema oscuro" width="800">
+  <img src="screenshots/01-all-sessions.png" alt="Six agent sessions in tabs, each with its state, next to the conversation, the tools it ran and the project files" width="800">
 </p>
 
 <p align="center">
-  <img src="screenshots/captura2.png" alt="Workspace con paneles" width="800">
+  <img src="screenshots/02-waiting-for-you.png" alt="An agent waiting for permission to write a file: allow, allow for session, allow always or deny" width="800">
 </p>
 
 <p align="center">
-  <img src="screenshots/captura3.png" alt="Terminal integrada y StatusLine" width="800">
+  <img src="screenshots/03-openrouter.png" alt="A session running an OpenRouter model, with the cost in the status bar" width="800">
 </p>
 
-## Requisitos
+## Requirements
 
-- **Windows 10/11** (64-bit)
-- **Claude Code CLI** instalado y autenticado (`claude` disponible en PATH)
-- Suscripcion activa a Claude (Max, Pro o Team)
+- Windows 10 (version 1903 or later) or Windows 11, 64-bit, and an internet connection.
+- Claude Code installed (with a Claude account, an Anthropic API key or an OpenRouter API key), or Codex installed plus an OpenRouter API key.
 
-## Instalacion
+## Install
 
-1. Descarga el instalador desde [Releases](https://github.com/Neuralflows/axon-terminal/releases) o desde [terminal.neuralflow.es](https://terminal.neuralflow.es)
-2. Ejecuta el `.exe` — se instala en segundos
-3. Abre Axon Terminal, selecciona una carpeta de proyecto y empieza
+1. Get it from the [Microsoft Store](https://apps.microsoft.com/detail/9P5DW739TTN1?cid=lichen-github) (it updates itself), or download the installer from [Releases](https://github.com/Neuralflows/axon-terminal/releases/latest).
+2. Open Axon Terminal, pick a project folder and start a session.
+
+## Feedback
+
+Found a bug or missing something? [Open an issue](https://github.com/Neuralflows/axon-terminal/issues).
 
 ## Changelog
 
-### v0.99.0 (2026-04-07)
-
-- Terminal integrada con PowerShell/CMD real — Ctrl+`, el proceso sobrevive al abrir/cerrar
-- Selector de shell: PowerShell Core, PowerShell o CMD sin reiniciar
-- Reconexion automatica si el terminal muere
-- Zen mode: oculta toda la UI salvo la conversacion
-- Arbol de archivos mejorado: +N -N por archivo, heatmap de cambios, archivos ignorados atenuados
-- Deteccion de version CLI: te avisa si Claude Code se actualizo entre sesiones
-- 183 tests automatizados + CI Guardian en cada commit
-- Los procesos ya no se acumulan al cerrar — shutdown graceful + limpieza de huerfanos
-- OpenRouter con retry automatico para rate limits
-
-### v0.9.0 (2026-03-30)
-
-- Los checkpoints ya no ensucian tu historial git — snapshots comprimidos fuera de git
-- Iconos en el arbol de archivos segun tipo
-- CHANGELOG reconstruido desde el dia uno
-
-### v0.8.0 (2026-03-30)
-
-- Pop-outs que siguen el tab activo sin desconectarse
-- Pestanas arrastrables, layout configurable, transparencia de ventana
-- Telemetria arreglada, permisos simplificados, limpieza de codigo muerto
-
-### v0.7.0 (2026-03-28)
-
-- Pantalla de inicio rediseñada
-- Wake word para dictado
-- Nombres personalizables en el chat
-- Opus 4.6 (1M) como opcion por defecto
-
-### v0.6.0 (2026-03-27)
-
-- Selector de effort level (Low/Medium/High/Max)
-- Comandos mid-session: /model, /effort, /permissions, /editor
-- Editor externo configurable
-- Undo que preserva la conversacion
-
-### v0.5.1 (2026-03-26)
-
-- Checkpoints — vuelve atras si algo sale mal
-- Reconexion automatica tras crash
-- Historial agrupado por proyecto
-- Exportar a Markdown
-
-### v0.5.0 (2026-03-24)
-
-- Multi-tab, busqueda en conversacion, atajos de teclado
-- Notificaciones de escritorio, dictado por voz configurable
-- Diff redimensionable
-
-### v0.4.0 (2026-03-24)
-
-- StatusLine con modelo, proyecto, rama, tokens, coste y duracion
-- F11 fullscreen, PermissionDialog
-
-### v0.3.0 (2026-03-23)
-
-- Worktree opcional, historial de sesiones con resume
-- Sistema de ayuda, temas centralizados, slash commands custom
-
-### v0.2.0 (2026-03-21)
-
-- Sistema de temas, panel toggles, sesiones pendientes, update checker
-
-### v0.1.0 (2026-03-15)
-
-- Release inicial
-
-## Reportar bugs / Pedir features
-
-Usa el [issue tracker](https://github.com/Neuralflows/axon-terminal/issues) de este repositorio.
-
-## Licencia
-
-Axon Terminal es software propietario. Consulta los [terminos de uso](https://terminal.neuralflow.es/terms) y la [politica de privacidad](https://terminal.neuralflow.es/privacy).
-
----
-
-<p align="center">
-  Hecho por <a href="https://neuralflow.es">Neuralflow</a>
-</p>
+See [Releases](https://github.com/Neuralflows/axon-terminal/releases) and [CHANGELOG.md](CHANGELOG.md).
