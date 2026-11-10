@@ -42,7 +42,25 @@ Lichen is a desktop app built for working with agents, not a terminal with an ag
 
 ## Screenshots
 
-<!-- jark-1814: capturas nuevas de la 2.0 aquí -->
+<p align="center">
+  <img src="screenshots/2.0/en/01-central.png" alt="Central: every project and conversation at a glance, and which agents are working or waiting for you" width="800">
+</p>
+
+<p align="center">
+  <img src="screenshots/2.0/en/02-pasos.png" alt="Each turn, summed up in one plain sentence, with every step explained on demand" width="800">
+</p>
+
+<p align="center">
+  <img src="screenshots/2.0/en/03-permiso.png" alt="Permissions you can understand: what Claude wants to do, why, and what could go wrong" width="800">
+</p>
+
+<p align="center">
+  <img src="screenshots/2.0/en/06-cambios.png" alt="See exactly what changed in each turn, without leaving the conversation" width="800">
+</p>
+
+<p align="center">
+  <img src="screenshots/2.0/en/05-costes.png" alt="Costs: what your sessions spend at API price and how much of your weekly limit is left" width="800">
+</p>
 
 ## Requirements
 
