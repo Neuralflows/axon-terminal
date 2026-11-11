@@ -5,8 +5,8 @@
 <h1 align="center">Lichen</h1>
 
 <p align="center">
-  The home for your coding agents.<br/>
-  Talk to your Claude Code and Codex agents, let them talk to each other, and see everything they do. Free for Windows.
+  Your coding agents, managed and fast.<br/>
+  Built for speed first: it stays fast even with huge conversations. Run your Claude Code and Codex agents as a team, see at a glance what each one is doing and what it costs, and talk to them by voice. Free for Windows.
 </p>
 
 <p align="center">
@@ -21,24 +21,25 @@
 
 ## Why
 
-A coding agent in a terminal hides most of what it does. You can't see how much context is left, what it costs, which hooks and MCP servers are running or what changed on disk, so you end up pressing Enter on things you never really looked at. Run three agents and you also become the messenger between them.
+With several coding agents running, the hard part isn't reading their code: it's knowing which one is stuck, how much context it has left, what it costs and what it already tried last week. Run three of them in terminals and you also become the messenger between them.
 
-Lichen is a desktop app built for working with agents, not a terminal with an agent inside.
+Lichen is a desktop app for directing coding agents, built for speed first: it stays fast even with huge conversations. Everything in one place.
 
 > "Since I started using Lichen I don't open a terminal, VS Code or File Explorer anymore. My agents do all of it inside Lichen, and it stays open all day."
 > — Manu, who builds Lichen
 
 ## What you get
 
-- **See everything.** Context used, when the prompt cache expires and cost for each tab, plus how much of your plan's 5-hour and weekly limits is gone. Every tool call, process, hook and MCP server, the git diff and the project files, next to the conversation.
+- **Fast with huge conversations.** Long sessions don't slow it down. Search your past conversations and pick any of them up again.
 - **A team, not a pile of tabs.** Agents can message each other and open new sessions to hand work over, and Lichen tells you when it's cheaper to start fresh. Your assistant keeps track of all of them while you talk to one.
+- **Every agent at a glance.** Working, done or waiting for you, with its context, when its prompt cache expires, its cost, and how much of your plan's 5-hour and weekly limits is gone.
 - **Talk to them.** Voice in and out, and an avatar for your assistant.
+- **The details, when you want them.** Every tool call, process, hook and MCP server, the git diff and the project files, next to the conversation. Agents propose deletions and you approve them with one click.
 - **Remote machines too.** Run sessions on a server over SSH, in the same window.
-- **Fast in long sessions.** Long conversations don't slow it down. Search your past conversations and pick any of them up again.
 - **Permission requests you can actually read.** Allow once, for the session or always, with a plain explanation and the exact command one click away.
 - **Free and local.** No sign-up.
 
-**With a Lichen account (waitlist):** memory your agents share across sessions, an issue tracker they run themselves over MCP, CI checks they can't skip and safe delete for full-auto agents. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
+**With a Lichen account (waitlist):** memory your agents share across sessions, an issue tracker they run themselves over MCP and CI checks they can't skip. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
 
 ## Screenshots
 
