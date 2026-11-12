@@ -31,10 +31,10 @@ Lichen is a desktop app for directing coding agents, built for speed first: it s
 ## What you get
 
 - **Fast with huge conversations.** Long sessions don't slow it down. Search your past conversations and pick any of them up again.
-- **A team, not a pile of tabs.** Agents can message each other and open new sessions to hand work over, and Lichen tells you when it's cheaper to start fresh. Your assistant keeps track of all of them while you talk to one.
-- **Every agent at a glance.** Working, done or waiting for you, with its context, when its prompt cache expires, its cost, and how much of your plan's 5-hour and weekly limits is gone.
+- **A team, not a pile of tabs.** Agents can message each other and open new sessions to hand work over, and Lichen warns you when a conversation is getting expensive to keep going. Your assistant keeps track of all of them while you talk to one.
+- **Every agent at a glance.** Working, done or waiting for you, with its context, its cost, and how much of your plan's 5-hour and weekly limits is gone. Lichen warns you before a long conversation's prompt cache runs out.
 - **Talk to them.** Voice in and out, and an avatar for your assistant.
-- **The details, when you want them.** Every tool call, process, hook and MCP server, the git diff and the project files, next to the conversation. Agents propose deletions and you approve them with one click.
+- **The details, when you want them.** Every tool call, process, hook and MCP server, the git diff and the project files, next to the conversation. Agents propose deletions and you approve them with a click and a confirmation.
 - **Remote machines too.** Run sessions on a server over SSH, in the same window.
 - **Permission requests you can actually read.** Allow once, for the session or always, with a plain explanation and the exact command one click away.
 - **Free and local.** No sign-up.
