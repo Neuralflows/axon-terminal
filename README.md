@@ -15,8 +15,6 @@
   <a href="https://uselichen.com/?utm_source=github">uselichen.com</a>
 </p>
 
-> Listed in the Microsoft Store as Axon Terminal while the rename to Lichen goes through.
-
 ---
 
 ## Why
