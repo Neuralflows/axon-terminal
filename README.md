@@ -36,6 +36,7 @@ Lichen is a desktop app for directing coding agents, built for speed first: it s
 - **Remote machines too.** Run sessions on a server over SSH, in the same window.
 - **Permission requests you can actually read.** Allow once, for the session or always, with a plain explanation and the exact command one click away.
 - **Free and local.** No sign-up.
+- **Private by default.** No account needed. Without one, the app only checks for updates; usage telemetry and crash reports stay off unless you turn them on (nothing is preselected). Details on the [privacy page](https://uselichen.com/privacy).
 
 **With a Lichen account (waitlist):** memory your agents share across sessions, an issue tracker they run themselves over MCP and CI checks they can't skip. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
 
