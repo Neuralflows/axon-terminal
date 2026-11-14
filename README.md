@@ -79,3 +79,7 @@ Found a bug or missing something? [Open an issue](https://github.com/Neuralflows
 ## Changelog
 
 See [Releases](https://github.com/Neuralflows/axon-terminal/releases) and [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+Free for personal and commercial use. Lichen isn't open source: the binaries and the changelog are public here. Full text: [LICENSE](LICENSE) and [uselichen.com/license](https://uselichen.com/license).
