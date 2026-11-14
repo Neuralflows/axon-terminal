@@ -36,7 +36,7 @@ Lichen is a desktop app for directing coding agents, built for speed first. Ever
 - **Remote machines too.** Run Claude Code sessions on a server over SSH, with your SSH key, in the same window. The file, git, diff and terminal panels only work in local sessions for now.
 - **Permission requests you can actually read.** Allow once, for the session or always, with a plain explanation and the exact command one click away.
 - **Free and local.** No sign-up.
-- **Private by default.** No account needed. Without one, the only requests to Lichen's servers are the update check and the news; usage telemetry and crash reports stay off unless you turn them on (nothing is preselected). Details on the [privacy page](https://uselichen.com/privacy).
+- **Private by default.** No account needed. Without one, the only requests to Lichen's servers are the update check and the news (versions before 2.0 also fetch the list of revoked licenses once a day, an empty request apart from your IP); usage telemetry and crash reports stay off unless you turn them on (nothing is preselected). Details on the [privacy page](https://uselichen.com/privacy).
 
 **With a Lichen account (waitlist; not open yet):** memory your agents share across sessions, an issue tracker they run themselves over MCP, and CI checks on each commit, tied to its issue. [Join the waitlist →](https://uselichen.com/?utm_source=github#join)
 
