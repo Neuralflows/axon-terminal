@@ -1,0 +1,72 @@
+Lichen License Agreement
+========================
+
+Copyright (c) 2026 Manuel José López Muñoz. All rights reserved.
+Last updated: 14 November 2026
+
+Lichen was formerly called Axon Terminal. This license is also published at
+https://uselichen.com/license (English) and https://uselichen.com/es/license
+(Spanish). If the two differ, the Spanish version prevails.
+
+1. License
+----------
+
+Manuel José López Muñoz ("we") grants you a free, non-exclusive, non-transferable and revocable license to install and use Lichen ("the Software") on any number of devices, for any purpose, personal or commercial, including at work and inside a company.
+
+2. The app and the account
+--------------------------
+
+The desktop app is free. The optional Lichen account (memory across sessions, an issue tracker your agents run, CI checks, your spend across PCs) is a separate service with its own terms and prices, published on uselichen.com.
+
+3. What you may not do
+----------------------
+
+- Redistribute, sell, rent or sublicense the Software or repackaged copies of it. Linking to the official download is fine.
+- Decompile, disassemble or reverse engineer it, except where the law allows it (for example, Article 6 of Directive 2009/24/EC).
+- Remove or change copyright, trademark or license notices.
+- Use the Lichen name or logo in a way that suggests your product is ours or that we endorse it.
+
+4. Third-party components and models
+------------------------------------
+
+The Software includes open-source components, each under its own license, which keeps applying to that component. Some optional models you download from the app have their own terms: for example, the OmniVoice voice model is licensed CC-BY-NC and may only be used for non-commercial purposes.
+
+5. AI services you connect
+--------------------------
+
+Lichen runs tools such as Claude Code or Codex with your own accounts. Your use of those services is governed by their providers' terms, and you pay them directly.
+
+6. Ownership
+------------
+
+The Software, its code, design and documentation belong to us. This license gives you the right to use it, not ownership. All rights not expressly granted are reserved.
+
+7. Updates
+----------
+
+We may publish updates, and they are covered by this license. We have no obligation to provide updates, support or maintenance.
+
+8. No warranty
+--------------
+
+The Software is provided "as is", without warranties of any kind, to the extent the law allows. If you are a consumer, this does not limit the rights your law gives you.
+
+9. Liability
+------------
+
+To the extent the law allows, we are not liable for indirect or consequential damages, or for loss of data, arising from the use of the Software. This does not apply to intent or gross negligence, or where the law does not allow it.
+
+10. Termination
+---------------
+
+This license ends if you break its terms. You must then stop using the Software and delete your copies.
+
+11. Law
+-------
+
+Spanish law applies. If you are a consumer, you keep the protection and the courts that the law of your country of residence gives you.
+
+12. Contact
+-----------
+
+Questions about this license: hola@neuralflow.es.
