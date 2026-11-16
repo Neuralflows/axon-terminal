@@ -6,7 +6,7 @@
 
 <p align="center">
   Your coding agents, managed and fast.<br/>
-  Built for speed first: in our lab test, a 300-turn conversation updates in about 70 ms per tool event, down from 1.8 s. Run your Claude Code and Codex agents as a team, see at a glance what each one is doing, check the context and cost of the one in front of you, and talk to them by voice. Free for Windows.
+  Built for speed first: in our lab benchmark (jsdom, not the live app), a 300-turn conversation re-renders in about 12-13 ms per tool event (median; p90 under 25 ms), down from 1.8 s in earlier versions. Run your Claude Code and Codex agents as a team, see at a glance what each one is doing, check the context and cost of the one in front of you, and talk to them by voice. Free for Windows.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Lichen is a desktop app for directing coding agents, built for speed first. Ever
 
 ## What you get
 
-- **Fast in long conversations.** In our lab test, a 300-turn conversation went from about 1.8 s to about 70 ms per tool event. Find past conversations by name, project or the start of their first message, and pick them up again.
+- **Fast in long conversations.** In our lab benchmark (jsdom, not the live app), a 300-turn conversation (6 tool calls per turn) re-renders in about 12-13 ms per tool event (median; p90 under 25 ms), down from 1.8 s in earlier versions. Find past conversations by name, project or the start of their first message, and pick them up again.
 - **A team, not a pile of tabs.** Agents can message each other and open new sessions to hand work over, and Lichen warns you when a conversation is getting expensive to keep going. Your assistant keeps track of all of them while you talk to one.
 - **Every agent at a glance.** Each tab shows whether its agent is working, done or waiting for you. For the tab in front of you, the bottom bar shows its context and its cost, next to how much of your Claude plan's 5-hour and weekly limits is gone (Codex limits are not shown). Lichen warns you before a long conversation's prompt cache runs out.
 - **Talk to them.** Voice in and out, and an avatar for your assistant.
